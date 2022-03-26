@@ -4,13 +4,10 @@ z = []
 list = []
 for line in f:
     z = []
-    # print(line)
     s = line.split(",")
     z.append(s[1].strip())
     z.append(s[2].strip())
     list.append(z)
-
-#print(kek)
 
 
 def email_gen(list_of_names):
@@ -24,16 +21,3 @@ def email_gen(list_of_names):
 
 
 print(email_gen(list))
-
-# for i in s[1:]:
-#     if (len(i) == 1):
-#         print(line)
-# print(line.split(","))
-# z = line.split(",")
-# for i in z:
-#     print(i)
-# s.append(z)
-# print(s)
-# print(len(s))
-
-# print(s[2])
